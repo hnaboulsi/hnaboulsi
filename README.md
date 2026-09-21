@@ -2,8 +2,6 @@
 
 `EECS @ UC Berkeley` · software engineering / backend systems / developer tooling
 
-I like building systems with clear interfaces, explicit failure modes, and tests that explain what broke.
-
 [website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
 
 ## Projects
