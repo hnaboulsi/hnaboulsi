@@ -1,10 +1,8 @@
 # Hassan Naboulsi
 
-`EECS @ UC Berkeley` · robotics / perception / systems
+`EECS @ UC Berkeley` · software engineering / backend systems / developer tooling
 
-I build software that has to survive noisy sensors, missing packets, and the gap between “it runs” and “it was tested.”
-
-<sub>signal → system → evidence</sub>
+I like building systems with clear interfaces, explicit failure modes, and tests that explain what broke.
 
 [website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
 
@@ -22,10 +20,10 @@ C++20 telemetry recording, fault injection, and timed UDP replay.
 </td>
 <td width="50%" valign="top">
 
-**[Grounding DINO × MuJoCo](https://github.com/hnaboulsi/grounding-dino-mujoco-benchmark)**<br>
-Object-detection evaluation against simulator-derived ground truth.
+**[EnrollEagle](https://github.com/hnaboulsi/enrolleagle)**<br>
+Full-stack course-seat monitoring with provider adapters, scheduled polling, and deduplicated notifications.
 
-<code>Python</code> <code>MuJoCo</code> <code>computer vision</code>
+<code>Python</code> <code>Flask</code> <code>React</code>
 
 </td>
 </tr>
@@ -51,6 +49,4 @@ A native macOS activity agent with a FastAPI backend and web dashboard.
 
 ## Toolbox
 
-`C++20` `Python` `ROS 2` `Linux` `TypeScript` `Swift` `MuJoCo` `PostgreSQL`
-
-<sub>build it · break it · measure it</sub>
+`C++20` `Python` `Flask` `FastAPI` `TypeScript` `Swift` `PostgreSQL` `Linux`
