@@ -6,7 +6,7 @@ I like building systems with clear interfaces, explicit failure modes, and tests
 
 [website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
 
-## Selected work
+## Projects
 
 <table>
 <tr>
