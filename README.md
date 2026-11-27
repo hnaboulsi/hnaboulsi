@@ -6,9 +6,12 @@ I study EECS at UC Berkeley and build software for robots, from perception and l
 
 ## ICON Lab
 
-I work on getting a Unitree Go2 to find objects indoors. My research tests how viewpoint and distance affect object detection and uses LiDAR and IMU data to estimate where the robot is.
+I work on getting a Unitree Go2 to find objects indoors. I build experiments that measure what the robot can see and how well it can estimate where it is.
 
-[Grounding DINO in MuJoCo](https://github.com/hnaboulsi/grounding-dino-mujoco-benchmark) is a small, reproducible example. It renders a scene with known ground truth and scores detections against it.
+- [Household Detection Benchmark](https://github.com/hnaboulsi/household-detection-benchmark) measures how camera angle, distance, and occlusion affect indoor object detection.
+- [Go2 LiDAR-Inertial Odometry](https://github.com/hnaboulsi/go2-lio-simulation) compares FAST-LIO2 trajectories with MuJoCo ground truth on a simulated walking Go2.
+- [Go2 Open-Vocabulary Detection](https://github.com/hnaboulsi/go2-ovd-benchmark) records RGB and segmentation from a walking Go2 in MuJoCo so detectors can be compared on the same frames.
+- [Controlled Object Detection Evaluation](https://github.com/hnaboulsi/object-detection-evaluation) tests Grounding DINO across 216 simulated cases with changes in camera angle, lighting, occlusion, and clutter.
 
 ## Other projects
 
