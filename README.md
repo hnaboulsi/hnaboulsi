@@ -1,20 +1,50 @@
 # Hassan Naboulsi
 
-I study EECS at UC Berkeley and build software for robots, from perception and localization to the tools that test them.
+`EECS @ UC Berkeley` · software engineering / backend systems / developer tooling
 
-[Website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
+[website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
 
-## ICON Lab
+## Projects
 
-I work on getting a Unitree Go2 to find objects indoors. I build experiments that measure what the robot can see and how well it can estimate where it is.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- [Household Detection Benchmark](https://github.com/hnaboulsi/household-detection-benchmark) measures how camera angle, distance, and occlusion affect indoor object detection.
-- [Go2 LiDAR-Inertial Odometry](https://github.com/hnaboulsi/go2-lio-simulation) compares FAST-LIO2 trajectories with MuJoCo ground truth on a simulated walking Go2.
-- [Go2 Open-Vocabulary Detection](https://github.com/hnaboulsi/go2-ovd-benchmark) records RGB and segmentation from a walking Go2 in MuJoCo so detectors can be compared on the same frames.
-- [Controlled Object Detection Evaluation](https://github.com/hnaboulsi/object-detection-evaluation) tests Grounding DINO across 216 simulated cases with changes in camera angle, lighting, occlusion, and clutter.
+**[StreamVault](https://github.com/hnaboulsi/streamvault)**<br>
+C++20 telemetry recording, fault injection, and timed UDP replay.
 
-## Other projects
+<code>C++20</code> <code>UDP</code> <code>CTest</code>
 
-- [Nav2-SLAM Resilience](https://github.com/hnaboulsi/nav2-slam-resilience) measures localization error and navigation recovery under simulated LiDAR faults.
-- [StreamVault](https://github.com/hnaboulsi/streamvault) records UDP telemetry in C++20 and replays it with the original timing.
-- [Chronicle](https://github.com/hnaboulsi/chronicle) collects activity on macOS and displays it in a web dashboard.
+</td>
+<td width="50%" valign="top">
+
+**[Chronicle](https://github.com/hnaboulsi/chronicle)**<br>
+A native macOS activity agent with a FastAPI backend and React dashboard.
+
+<code>Swift</code> <code>FastAPI</code> <code>React</code>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Network UI Map](https://github.com/hnaboulsi/network-ui-map)**<br>
+Interactive 3D views of data center racks, pods, and network links.
+
+<code>JavaScript</code> <code>Three.js</code>
+
+</td>
+<td width="50%" valign="top">
+
+**[Nav2-SLAM Resilience](https://github.com/hnaboulsi/nav2-slam-resilience)**<br>
+Quantitative ROS 2 navigation and localization testing under controlled LiDAR faults.
+
+<code>ROS 2</code> <code>Gazebo</code> <code>SLAM</code>
+
+</td>
+</tr>
+</table>
+
+## Toolbox
+
+`C++20` `Python` `FastAPI` `TypeScript` `Swift` `PostgreSQL` `Linux`
