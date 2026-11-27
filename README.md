@@ -1,50 +1,17 @@
 # Hassan Naboulsi
 
-`EECS @ UC Berkeley` · software engineering / backend systems / developer tooling
+I study EECS at UC Berkeley and build software for robots, from perception and localization to the tools that test them.
 
-[website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
+[Website](https://naboulsi.me) · [LinkedIn](https://linkedin.com/in/hnaboulsi)
 
-## Projects
+## ICON Lab
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I work on getting a Unitree Go2 to find objects indoors. My research tests how viewpoint and distance affect object detection and uses LiDAR and IMU data to estimate where the robot is.
 
-**[StreamVault](https://github.com/hnaboulsi/streamvault)**<br>
-C++20 telemetry recording, fault injection, and timed UDP replay.
+[Grounding DINO in MuJoCo](https://github.com/hnaboulsi/grounding-dino-mujoco-benchmark) is a small, reproducible example. It renders a scene with known ground truth and scores detections against it.
 
-<code>C++20</code> <code>UDP</code> <code>CTest</code>
+## Other projects
 
-</td>
-<td width="50%" valign="top">
-
-**[EnrollEagle](https://github.com/hnaboulsi/enrolleagle)**<br>
-Full-stack course-seat monitoring with provider adapters, scheduled polling, and deduplicated notifications.
-
-<code>Python</code> <code>Flask</code> <code>React</code>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Nav2-SLAM Resilience](https://github.com/hnaboulsi/nav2-slam-resilience)**<br>
-Quantitative ROS 2 navigation and localization testing under controlled LiDAR faults.
-
-<code>ROS 2</code> <code>Gazebo</code> <code>SLAM</code>
-
-</td>
-<td width="50%" valign="top">
-
-**[Chronicle](https://github.com/hnaboulsi/chronicle)**<br>
-A native macOS activity agent with a FastAPI backend and web dashboard.
-
-<code>Swift</code> <code>FastAPI</code> <code>React</code>
-
-</td>
-</tr>
-</table>
-
-## Toolbox
-
-`C++20` `Python` `Flask` `FastAPI` `TypeScript` `Swift` `PostgreSQL` `Linux`
+- [Nav2-SLAM Resilience](https://github.com/hnaboulsi/nav2-slam-resilience) measures localization error and navigation recovery under simulated LiDAR faults.
+- [StreamVault](https://github.com/hnaboulsi/streamvault) records UDP telemetry in C++20 and replays it with the original timing.
+- [Chronicle](https://github.com/hnaboulsi/chronicle) collects activity on macOS and displays it in a web dashboard.
