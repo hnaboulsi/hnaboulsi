@@ -28,18 +28,36 @@ A native macOS activity agent with a FastAPI backend and React dashboard.
 <tr>
 <td width="50%" valign="top">
 
-**[Network UI Map](https://github.com/hnaboulsi/network-ui-map)**<br>
-Interactive 3D views of data center racks, pods, and network links.
+**[Bearcorp Dashboard](https://github.com/hnaboulsi/bearcorp-dashboard)**<br>
+A team-built dashboard that discovers SQL detections, runs them against event data, and exports findings.
 
-<code>JavaScript</code> <code>Three.js</code>
+<code>Python</code> <code>SQLite</code> <code>JavaScript</code>
 
 </td>
+<td width="50%" valign="top">
+
+**[Object Detection Evaluation](https://github.com/hnaboulsi/object-detection-evaluation)**<br>
+A reproducible ML evaluation pipeline that scores Grounding DINO across 216 simulated scenes.
+
+<code>Python</code> <code>Docker</code> <code>MuJoCo</code>
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Nav2-SLAM Resilience](https://github.com/hnaboulsi/nav2-slam-resilience)**<br>
 Quantitative ROS 2 navigation and localization testing under controlled LiDAR faults.
 
 <code>ROS 2</code> <code>Gazebo</code> <code>SLAM</code>
+
+</td>
+<td width="50%" valign="top">
+
+**[Household Detection Benchmark](https://github.com/hnaboulsi/household-detection-benchmark)**<br>
+Tests how camera angle, distance, and occlusion affect indoor object detection.
+
+<code>Python</code> <code>MuJoCo</code> <code>Computer vision</code>
 
 </td>
 </tr>
